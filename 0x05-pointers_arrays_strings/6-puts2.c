@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * puts2 - print one char out of 2 of the string
+ * puts2 - prints one char out of 2 of the string
  * followed by a new line
- * @str: string to print thr chars from
+ * @str: string to print the chars fro
  */
 void puts2(char *str)
 {
-	int len = i;
+	int len, i;
 
 	len = 0;
 
@@ -16,7 +16,7 @@ void puts2(char *str)
 		len++;
 	}
 
-	for (i = 0; i < len; i += 2)
+	for (i = 0; i < len; 1 += 2)
 
 	{
 		_putchar(str[i]);
